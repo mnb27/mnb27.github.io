@@ -295,11 +295,14 @@ li.logo span {
 }
 
 h3 {
-  font-weight: 200;
-  margin-bottom: 60px;
+  font-weight: 180;
+  margin-bottom: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 0;
-  padding: 30px 40px;
+  padding: 18px 28px;
   text-transform: uppercase;
+  /* background-image: linear-gradient(to right, #212c58,#2a3a72, #384886); */
+  background-image: linear-gradient(to right, #1d584a,#1e6956, #237a66);
 }
 
 .section {
@@ -553,6 +556,10 @@ small {
   color: #008073 !important;
 }
 
+.bluee-text {
+  color: #212c58 !important;
+}
+
 /* .teal-text {
   color: #0b5e86 !important;
 } */
@@ -562,6 +569,12 @@ small {
 .teal {
   background-color: #008073 !important;
 }
+
+.bluee {
+  background-color: #212c58 !important;
+}
+
+
 
 /* .teal {
   background-color: #00695c !important;
