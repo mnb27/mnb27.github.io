@@ -1,0 +1,88 @@
+/* Mockup for ProgCode project cards using materializecss.com */
+  
+  .icon {
+    font-size: 0.9rem;
+    display: inline-flex;
+    background: #D8D8D8;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+  }
+  .icon span {
+    border-radius: 5px;
+    padding: 3px 5px;
+  }
+  
+  .react {
+    background: #BAD5F5;
+  }
+  .react span::after {
+    content: "React.js";
+  }
+  
+  .express {
+    background: #F2C986;
+  }
+  .express span::after {
+    content: "Express";
+  }
+  
+  .node {
+    background: #E1C1C1;
+  }
+  .node span::after {
+    content: "Node.js";
+  }
+  
+  .python {
+    background: #EADD86;
+  }
+  .python span::after {
+    content: "Python";
+  }
+
+  .kotlin {
+    background: #EADD86;
+  }
+  .kotlin span::after {
+    content: "Kotlin";
+  }
+  
+  .django {
+    background: #AFEAE5;
+  }
+  .django span::after {
+    content: "Django";
+  }
+
+  .php {
+    background: #AFEAE5;
+  }
+  .php span::after {
+    content: "PHP";
+  }
+
+  .mysql {
+    background: #a4d570;
+  }
+  .mysql span::after {
+    content: "MySQL";
+  }
+  
+  .card a {
+    padding-right: 15px;
+  }
+  
+  .github {
+    color: #739150;
+  }
+  
+  .status {
+    color: #7699C2;
+  }
+
+  .activator {
+    /* padding: 15px 15px 15px 15px; */
+    width: 70px;
+    height: 250px;
+  }
